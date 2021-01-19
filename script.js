@@ -1,6 +1,6 @@
 $('.start').click(function(){
     $('.stage1').fadeOut();
-    fire_modal('https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/cake_modal.png','Let’s make a cake!','Since it’s your birthday, I find it only fitting that you get to make your own digital birthday cake. Start by making your cake mixture, then bake it in a digital oven and finally decorate. Have fun and happy birthday');
+    fire_modal('https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/cake_modal.png','Lets make a cake!','I really thought what i should make for you , but for the idiot i am can\'t figure out anything , so thought of let you do something which i know you have never done before, that is making a cake. Thek he even if you baked little bit but that not counted , So lets start and Happy birthday');
 })
 
 progress = 1;
@@ -47,7 +47,7 @@ $('.mixer').click(function(){
     }
     if(mixtimes == 6){
         $('.stage2').fadeOut();
-        fire_modal('https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/mix_modal.png','Mix successful!','Congratulations, the mixture is perfect! After pouring the mixture into a baking tin, it’s now time to put it in our digital oven for about 3 seconds. That should be enough time for a nice spongy base.');
+        fire_modal('https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/mix_modal.png','Mix successful!','Wow, smells really nice, kya mast bana he, Since i am very helpful i am doing this part of process. i am pouring all the mixture into this steel vala tin, and getting it ready for the next process. Acha guess karo what would be the next process, being the dumb person you are , i doubt you will');
 
     }
 
@@ -59,7 +59,7 @@ $('.tin').draggable({
 $( ".oven" ).droppable({
     drop: function( event, ui ) {
         $('.stage3').fadeOut();
-        fire_modal('https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/oven_modal.png','Bake successfull!','Yes! You are a master chef. The base is fully baked and looks super yummy. Now its time to combine this base with lots of other ingredients like jam, marmalade, chocolate and more.');
+        fire_modal('https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/oven_modal.png','Bake successfull!','Kya bat he! You are a master chef. Mene help ki thi isliye it looks the base is fully baked and looks super yummy. Now its time for the most interesting thing that is to add different different ingredentiets on top, sajana to banta hi he');
     }
 })
 
